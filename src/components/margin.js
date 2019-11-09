@@ -1,11 +1,13 @@
-import styles from './margin.css'
+import React from 'react'
 
-const Margin = () => {
+import styles from './margin.module.css'
+
+const Margin = (props) => {
   return (
-    <div class={styles.container}>
-      <h1 class={styles.heading1}>Test Diffing</h1>
-      <button class={styles.button}>Button</button>
-      <button disabled="true" class={styles.button1}>
+    <div className={styles.container}>
+      <h1 className={styles.heading1}>Test Diffing</h1>
+      <button className={styles.button}>Button</button>
+      <button disabled="true" className={styles.button1}>
         Does this really work?
       </button>
     </div>

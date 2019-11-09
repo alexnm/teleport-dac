@@ -1,9 +1,11 @@
-import styles from './margin1.css'
+import React from 'react'
 
-const Margin1 = () => {
+import styles from './margin1.module.css'
+
+const Margin1 = (props) => {
   return (
-    <div class={styles.container}>
-      <h1 class={styles.heading1}>Heading Level 1</h1>
+    <div className={styles.container}>
+      <h1 className={styles.heading1}>Heading Level 1</h1>
     </div>
   )
 }
